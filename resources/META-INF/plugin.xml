@@ -1,0 +1,44 @@
+<idea-plugin>
+    <id>com.cloud9.theme.jetstream</id>
+    <name>Cloud9 JetStream</name>
+    <vendor email="techservices@cloud9.gg" url="https://cloud9.gg">Cloud9 Esports Inc.</vendor>
+    <version>1.0.0</version>
+    <description><![CDATA[
+        <h2>Cloud9 JetStream</h2>
+        <p>A dark theme for JetBrains IDEs built for long coding sessions. Deep navy-black backgrounds, restrained Cloud9-blue accents, and a palette that stays out of your way.</p>
+
+        <h3>Design philosophy</h3>
+        <p>Most dark themes settle for flat charcoal. Cloud9 JetStream uses a layered navy-black palette with five distinct background tiers from <code>#060A10</code> through <code>#1E293B</code>, so the editor, tool windows, and popups feel like distinct surfaces, not one blob of gray.</p>
+        <p>The color story is deliberately restrained:</p>
+        <ul>
+            <li><b>Blue</b> carries syntax structure: keywords, operators, focus indicators</li>
+            <li><b>Cyan</b> marks type information: classes, types, interfaces</li>
+            <li><b>Purple/violet/indigo</b> flag meta-language: annotations, constants, decorators</li>
+            <li><b>Amber</b> is reserved for strings. One warm accent. Like stars against a dark sky.</li>
+            <li><b>Steel-blue</b> punctuation that recedes so logic stands out</li>
+        </ul>
+        <p>Every color has a job. No competing accents.</p>
+
+        <h3>What's covered</h3>
+        <ul>
+            <li>90+ syntax tokens</li>
+            <li>Language-specific tuning for Kotlin, Java, Python, JS/TS, SQL, CSS, Shell/Bash</li>
+            <li>Every UI surface: main menu, tool windows, completion, run widget, terminal, debugger, VCS log</li>
+            <li>Tuned console ANSI palette</li>
+            <li>Rainbow brackets cascade (blue → cyan → indigo → violet → purple)</li>
+            <li>File-status colors that make VCS changes legible at a glance</li>
+        </ul>
+
+    ]]></description>
+    <change-notes><![CDATA[
+        <h3>1.0.0: First release</h3>
+        <p>Initial release of Cloud9 JetStream. A dark theme for JetBrains IDEs with a layered navy-black palette and restrained Cloud9-blue accents.</p>
+    ]]></change-notes>
+    <idea-version since-build="231"/>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.cloud9.theme.jetstream" path="/theme/cloud9theme.theme.json"/>
+        <bundledColorScheme id="Cloud9 JetStream" path="/theme/cloud9-scheme"/>
+    </extensions>
+</idea-plugin>

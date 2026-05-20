@@ -1,0 +1,21 @@
+# Build output
+out/
+*.jar
+
+# IntelliJ IDEA project files (auto-generated, user-specific)
+.idea/
+*.iml
+
+# Python virtual environment
+.venv/
+
+# Brand source assets (kept local, not shipped with the plugin)
+resources/assets/
+generate_assets.py
+
+# Screenshot mock files for Marketplace listing
+screenshots/
+
+# OS files
+Thumbs.db
+.DS_Store
