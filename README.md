@@ -16,7 +16,7 @@ Requires Python 3 to package the JAR.
 py create_jar.py
 ```
 
-This produces `cloud9-jetstream-1.0.0.jar` at the project root. Install it via **Settings → Plugins → ⚙ → Install Plugin from Disk** and select the JAR.
+This produces `cloud9-jetstream-1.0.1.jar` at the project root. Install it via **Settings → Plugins → ⚙ → Install Plugin from Disk** and select the JAR.
 
 ## What's covered
 

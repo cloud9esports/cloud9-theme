@@ -2,7 +2,7 @@
     <id>com.cloud9.theme.jetstream</id>
     <name>Cloud9 JetStream</name>
     <vendor email="techservices@cloud9.gg" url="https://cloud9.gg">Cloud9 Esports Inc.</vendor>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description><![CDATA[
         <h2>Cloud9 JetStream</h2>
         <p>A dark theme for JetBrains IDEs built for long coding sessions. Deep navy-black backgrounds, restrained Cloud9-blue accents, and a palette that stays out of your way.</p>
@@ -31,6 +31,14 @@
 
     ]]></description>
     <change-notes><![CDATA[
+        <h3>1.0.1</h3>
+        <ul>
+            <li>Ctrl-F search matches now appear as markers on the editor scrollbar</li>
+            <li>New pale-teal color for object members (fields, properties, attributes) for clearer contrast against identifiers</li>
+            <li>Consistent comment styling across embedded code blocks in Markdown</li>
+            <li>Unified inline parameter hint styling</li>
+            <li>Softened the primary blue accent for easier reading on dark backgrounds</li>
+        </ul>
         <h3>1.0.0: First release</h3>
         <p>Initial release of Cloud9 JetStream. A dark theme for JetBrains IDEs with a layered navy-black palette and restrained Cloud9-blue accents.</p>
     ]]></change-notes>

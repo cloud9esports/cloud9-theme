@@ -1,6 +1,6 @@
 import zipfile, os
 
-jar_path = 'cloud9-jetstream-1.0.0.jar'
+jar_path = 'cloud9-jetstream-1.0.1.jar'
 res_dir = 'resources'
 
 with zipfile.ZipFile(jar_path, 'w', zipfile.ZIP_DEFLATED) as zf:

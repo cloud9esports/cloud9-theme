@@ -423,6 +423,7 @@
                 <option name="BACKGROUND" value="243044" />
                 <option name="EFFECT_TYPE" value="1" />
                 <option name="EFFECT_COLOR" value="3D9BC9" />
+                <option name="ERROR_STRIPE_COLOR" value="3D9BC9" />
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
@@ -430,6 +431,7 @@
                 <option name="BACKGROUND" value="2D1419" />
                 <option name="EFFECT_TYPE" value="1" />
                 <option name="EFFECT_COLOR" value="FF6B6B" />
+                <option name="ERROR_STRIPE_COLOR" value="FF6B6B" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -437,6 +439,7 @@
                 <option name="BACKGROUND" value="243044" />
                 <option name="EFFECT_TYPE" value="2" />
                 <option name="EFFECT_COLOR" value="E2B55A" />
+                <option name="ERROR_STRIPE_COLOR" value="E2B55A" />
             </value>
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -444,6 +447,7 @@
                 <option name="BACKGROUND" value="1F3247" />
                 <option name="EFFECT_TYPE" value="1" />
                 <option name="EFFECT_COLOR" value="3D9BC9" />
+                <option name="ERROR_STRIPE_COLOR" value="3D9BC9" />
             </value>
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -451,6 +455,7 @@
                 <option name="BACKGROUND" value="2D1419" />
                 <option name="EFFECT_TYPE" value="1" />
                 <option name="EFFECT_COLOR" value="FF6B6B" />
+                <option name="ERROR_STRIPE_COLOR" value="FF6B6B" />
             </value>
         </option>
 
