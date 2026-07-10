@@ -1,7 +1,10 @@
-import zipfile, os
+import zipfile, os, xml.etree.ElementTree as ET
 
-jar_path = 'cloud9-jetstream-1.0.1.jar'
 res_dir = 'resources'
+
+plugin_xml = os.path.join(res_dir, 'META-INF', 'plugin.xml')
+version = ET.parse(plugin_xml).getroot().findtext('version')
+jar_path = f'cloud9-jetstream-{version}.jar'
 
 with zipfile.ZipFile(jar_path, 'w', zipfile.ZIP_DEFLATED) as zf:
     for root, dirs, files in os.walk(res_dir):
